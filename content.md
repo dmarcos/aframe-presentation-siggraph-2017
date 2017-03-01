@@ -9,8 +9,12 @@
 </div>
 
 <!-- NOTES -->
-- Onboard web developers into the 3D and VR world with easy-to-use tools
-- Prototype WebVR experiences faster
+- Launched December 2015
+- Why:
+  - Onboard web developers into the 3D and VR world with easy-to-use tools
+  - Easy for web developers to create VR content, without graphics knowledge
+  - Prototype and experiment WebVR and VR UX faster
+  - Vehicle to kickstart WebVR ecosystem
 
 ------
 
@@ -39,20 +43,84 @@
 
 ------
 
-# A-Frame
+## Hello World
 
-<!-- .slide: data-background="media/img/aframe-rendered-full.png" -->
+<!-- .slide: data-background="media/img/aframe.png" data-transition="slide-in none" -->
 
-A declarative framework for building virtual reality experiences on the Web
+```html
+<html>
+  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <a-scene>
+
+
+
+
+
+  </a-scene>
+</html>
+```
+<!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Launched last December
-- Why:
-  - Easy for web developers to create VR content, without graphics knowledge
-  - Prototype and experiment WebVR and VR UX faster
-  - Vehicle to kickstart WebVR ecosystem
+- Just HTML
+- Drop a script tag, no build steps
+- Using Custom HTML Elements
+- One line of HTML `<a-scene>` handles
+  - canvas, camera, renderer, lights, controls, render loop, WebVR polyfill, VREffect
+- Put stuff inside our scene...
 
----
+------
+
+## Hello World
+
+<!-- .slide: data-background="media/img/aframe.png" data-transition="fade-in slide-out" -->
+
+```html
+<html>
+  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  <a-scene>
+    <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
+    <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
+    <a-sphere color="#EF2D5E" position="0 1.25 -5" radius="1.25"></a-sphere>
+    <a-plane color="#7BC8A4" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
+    <a-sky color="#ECECEC"></a-sky>
+  </a-scene>
+</html>
+```
+<!-- .element: class="stretch" -->
+
+<!-- NOTES -->
+- Basic 3D primitives with Custom Elements
+- Readable: HTML arguably most accessible language in computing
+- Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
+- Quickly look at a live example...
+
+------
+
+# A-Frame
+
+<div class="captioned-image-row">
+  <div>
+    <img data-src="media/img/github.png">
+    <i>125 contributors 4800 Stargazers</i>
+  </div>
+  <div>
+    <img data-src="media/img/slack.png">
+    <i>3000 members on Slack</i>
+  </div>
+  <div>
+    <img data-src="media/img/scene-collage-circle.png">
+    <i>100s of featured projects</i>
+  </div>
+</div>
+
+<!-- NOTES -->
+- Open source and inclusive project
+- Most work done on GitHub
+- Active community on Slack to share projects, interact, hang out, seek help
+- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+------
 
 ## Hello Metaverse
 
@@ -82,7 +150,7 @@ A declarative framework for building virtual reality experiences on the Web
 - 2D web where every element was fixed
 - 3D/VR is different, objects of infinite types and complexities, need an easy way to build up different kinds of objects
 
----
+------
 
 <div class="icon-title">
   <img data-src="media/img/registry.png" width="64">
@@ -102,37 +170,8 @@ Curated collection of A-Frame components/shaders.
 - Like a store of components that we make sure work well
 - People can browse and search for components or install them....
 
----
+------
 
-## Inspector
+# City Builder
 
-<!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
-
-Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
-
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
-
----
-
-# aframe.io
-
-<div class="captioned-image-row">
-  <div>
-    <img data-src="media/img/github.png">
-    <i>125 contributors 4800 Stargazers</i>
-  </div>
-  <div>
-    <img data-src="media/img/slack.png">
-    <i>3000 members on Slack</i>
-  </div>
-  <div>
-    <img data-src="media/img/scene-collage-circle.png">
-    <i>100s of featured projects</i>
-  </div>
-</div>
-
-<!-- NOTES -->
-- Open source and inclusive project
-- Most work done on GitHub
-- Active community on Slack to share projects, interact, hang out, seek help
-- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+![](/media/img/citybuilder.gif)
