@@ -236,6 +236,16 @@ iStaging
 
 ------
 
+<!-- .slide: data-background="media/img/2017nyc.gif" -->
+
+# *2017 Holiday Snow Globe*
+
+@ronikdesign
+
+------
+
+------
+
 <!-- .slide: data-background="media/img/saturdaynight.gif" -->
 
 # Motion Capture - *A Saturday Night*
