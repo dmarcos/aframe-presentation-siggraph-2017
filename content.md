@@ -152,14 +152,11 @@
 
 ------
 
-<div class="icon-title">
-  <img data-src="media/img/registry.png" width="64">
-  <h2>Registry</h2>
-</div>
+# Registry
 
 <!-- .slide: data-background="media/img/aframe-side.png" -->
 
-Curated collection of A-Frame components/shaders.
+Curated collection of A-Frame components.
 
 <a class="stretch" href="https://aframe.io/aframe-registry">
   <video loop data-src="media/video/registrypreview.mp4" data-autoplay></video>
@@ -169,6 +166,12 @@ Curated collection of A-Frame components/shaders.
 - Collecting them into the A-Frame registry
 - Like a store of components that we make sure work well
 - People can browse and search for components or install them....
+
+------
+
+<!-- .slide: data-background="media/img/header.png" -->
+
+# Community Examples
 
 ------
 
@@ -217,3 +220,27 @@ Amnesty International UK
 # Mathematics - *MathworldVR*
 
 @sleighdogs
+
+------
+
+<!-- .slide: data-background-color="#222" data-background-video="media/video/ghosttrain.mp4" data-background-video-loop="true" -->
+
+# Entertainment - *Ghost Train Builder*
+
+@realisetweets
+
+------
+
+<!-- .slide: data-background="media/img/apainter.gif" -->
+
+# Art - *A-Painter*
+
+@mozillavr
+
+------
+
+<!-- .slide: data-background="media/img/screenvr.gif" -->
+
+# Utility - *ScreenVR*
+
+@jonathanzwhite
