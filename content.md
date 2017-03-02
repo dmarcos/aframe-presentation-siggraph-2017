@@ -172,6 +172,48 @@ Curated collection of A-Frame components/shaders.
 
 ------
 
-# City Builder
+<!-- .slide: data-background="media/img/syria.gif" -->
 
-![](/media/img/citybuilder.gif)
+# Journalism - *Fear of the Sky*
+
+Amnesty International UK
+
+------
+
+<!-- .slide: data-background="media/img/citybuilder.gif" -->
+
+# Sandbox - *City Builder*
+
+@kfarr
+
+------
+
+<!-- .slide: data-background="media/img/adit.gif" -->
+
+# Data Visualization - *Adit*
+
+@datatitian
+
+------
+
+<!-- .slide: data-background="media/img/a-blast.gif" -->
+
+# Gaming - *A-Blast*
+
+@mozillavr
+
+------
+
+<!-- .slide: data-background="media/img/ux.gif" -->
+
+# Prototyping - *UI Widgets*
+
+@whoyee
+
+------
+
+<!-- .slide: data-background="media/img/math.gif" -->
+
+# Mathematics - *MathworldVR*
+
+@sleighdogs
