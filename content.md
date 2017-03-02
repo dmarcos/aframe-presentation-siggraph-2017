@@ -257,3 +257,9 @@ iStaging
 # Motion Capture - *A Saturday Night*
 
 @mozillavr
+
+------
+
+# What's Coming?
+
+- WebVR shipped and enabled on Firefox 54 (2017-06-13)
