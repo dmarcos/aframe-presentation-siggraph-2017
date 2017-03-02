@@ -18,91 +18,12 @@
 
 ------
 
-<!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
-
-<div class="slide__boilerplate">
-  <p>Import WebVR polyfill</p>
-  <p>Set up camera</p>
-  <p>Set up lights</p>
-  <p>Initialize scene</p>
-  <p>Declare and pass canvas</p>
-  <p>Listen to window resize</p>
-  <p>Install VREffect</p>
-  <p>Instantiate renderer</p>
-  <p>Create render loop</p>
-  <p>Preload assets</p>
-  <p>Figure out responsiveness</p>
-  <p>Deal with metatags and mobile</p>
-</div>
-
-<!-- NOTES -->
-- It's still too difficult to create WebVR experiences
-- Huge obstacle if doing small prototypes and experiments
-- Boilerplate needs updating with new versions of WebVR, three.js, and browser quirks
-- Encapsulate all of that into one line...
-
-------
-
-## Hello World
-
-<!-- .slide: data-background="media/img/aframe.png" data-transition="slide-in none" -->
-
-```html
-<html>
-  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
-  <a-scene>
-
-
-
-
-
-  </a-scene>
-</html>
-```
-<!-- .element: class="stretch" -->
-
-<!-- NOTES -->
-- Just HTML
-- Drop a script tag, no build steps
-- Using Custom HTML Elements
-- One line of HTML `<a-scene>` handles
-  - canvas, camera, renderer, lights, controls, render loop, WebVR polyfill, VREffect
-- Put stuff inside our scene...
-
-------
-
-## Hello World
-
-<!-- .slide: data-background="media/img/aframe.png" data-transition="fade-in slide-out" -->
-
-```html
-<html>
-  <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
-  <a-scene>
-    <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
-    <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
-    <a-sphere color="#EF2D5E" position="0 1.25 -5" radius="1.25"></a-sphere>
-    <a-plane color="#7BC8A4" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
-  </a-scene>
-</html>
-```
-<!-- .element: class="stretch" -->
-
-<!-- NOTES -->
-- Basic 3D primitives with Custom Elements
-- Readable: HTML arguably most accessible language in computing
-- Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
-- Quickly look at a live example...
-
-------
-
 # A-Frame
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>125 contributors 4800 Stargazers</i>
+    <i>125 contributors 4800+ Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
@@ -154,7 +75,7 @@
 
 # Registry
 
-<!-- .slide: data-background="media/img/aframe-side.png" -->
+<!-- .slide: data-background-color="#333" -->
 
 Curated collection of A-Frame components.
 
@@ -169,9 +90,21 @@ Curated collection of A-Frame components.
 
 ------
 
+# Registry
+
+<!-- .slide: data-background-color="#333" -->
+
+Curated collection of A-Frame components.
+
+<video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
+
+------
+
 <!-- .slide: data-background="media/img/header.png" -->
 
 # Community Examples
+
+https://aframe.io/blog/
 
 ------
 
@@ -180,6 +113,14 @@ Curated collection of A-Frame components.
 # Journalism - *Fear of the Sky*
 
 Amnesty International UK
+
+------
+
+<!-- .slide: data-background="media/img/mars.jpg" -->
+
+# Journalism - *Journey to Mars*
+
+The Washington Post
 
 ------
 
@@ -225,7 +166,7 @@ Amnesty International UK
 
 <!-- .slide: data-background-color="#222" data-background-video="media/video/ghosttrain.mp4" data-background-video-loop="true" -->
 
-# Entertainment - *Ghost Train Builder*
+# Entertainment - *Ghost Train*
 
 @realisetweets
 
@@ -244,3 +185,59 @@ Amnesty International UK
 # Utility - *ScreenVR*
 
 @jonathanzwhite
+
+------
+
+<!-- .slide: data-background="media/img/ar.gif" -->
+
+# AR - *aframe-ar.js*
+
+@jerome_etienne
+
+------
+
+<!-- .slide: data-background="media/img/webvrstudio.png" -->
+
+# Tools - *WebVR Studio*
+
+@webvrstudio
+
+------
+
+<!-- .slide: data-background="media/img/shaders.gif" -->
+
+# Shaders - *ShaderFrog*
+
+@machenmusik
+
+------
+
+<!-- .slide: data-background-video="media/video/livetour.mp4" data-background-video-loop="true" -->
+
+# Real Estate - *Live Tour*
+
+iStaging
+
+------
+
+<!-- .slide: data-background="media/img/senseofpromise.gif" -->
+
+# Ownership - *Sense of Promise*
+
+@akupresanin
+
+------
+
+<!-- .slide: data-background="media/img/cadavr.gif" -->
+
+# Education - *CadaVR*
+
+@drryanjames
+
+------
+
+<!-- .slide: data-background="media/img/saturdaynight.gif" -->
+
+# Motion Capture - *A Saturday Night*
+
+@mozillavr
