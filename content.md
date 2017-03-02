@@ -262,4 +262,7 @@ iStaging
 
 # What's Coming?
 
+- Link traversal
 - WebVR shipped and enabled on Firefox 54 (2017-06-13)
+
+![](/media/img/linktraversal.gif)
