@@ -244,6 +244,12 @@ iStaging
 
 ------
 
+<!-- .slide: data-background="media/img/tango.jpg" -->
+
+# *Project Tango to WebVR*
+
+@utopiah
+
 ------
 
 <!-- .slide: data-background="media/img/saturdaynight.gif" -->
