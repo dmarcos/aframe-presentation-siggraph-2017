@@ -43,13 +43,7 @@
 
 ------
 
-## Hello Metaverse
-
-<i>by Ada Rose Edwards (@lady_ada_king)</i>
-
-<!-- .slide: data-background="media/img/metaverse.png" -->
-
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
+<!-- .slide: data-background="media/img/venn-diagram.gif" -->
 
 <!-- NOTES -->
 - A-Frame scene by Ada Rose Edwards running from inside my HTML slides
@@ -65,7 +59,7 @@
 
 <!-- NOTES -->
 - Is an entity-component framework
-- Popular in game development, used by Unity
+- Popular pattern in game development, used by Unity
 - All objects in scene are **entities** that inherently empty objects. Plug in
   **components** to attach appearance / behavior / functionality
 - 2D web where every element was fixed
@@ -97,6 +91,14 @@ Curated collection of A-Frame components.
 Curated collection of A-Frame components.
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
+
+------
+
+# Inspector
+
+<!-- .slide: data-background="media/img/metaverse.png" -->
+
+<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
 ------
 
@@ -244,19 +246,11 @@ iStaging
 
 ------
 
-<!-- .slide: data-background="media/img/tango.jpg" -->
+!-- .slide: data-background="media/img/tango.jpg" -->
 
 # *Project Tango to WebVR*
 
 @utopiah
-
-------
-
-<!-- .slide: data-background="media/img/saturdaynight.gif" -->
-
-# Motion Capture - *A Saturday Night*
-
-@mozillavr
 
 ------
 
@@ -266,3 +260,15 @@ iStaging
 - WebVR shipped and enabled on Firefox 54 (2017-06-13)
 
 ![](/media/img/linktraversal.gif)
+
+------
+
+<!-- .slide: data-background="media/img/saturdaynight.gif" -->
+
+# Motion Capture - *A Saturday Night*
+
+[Ready to dance?](http://swimminglessonsformodernlife.com/a-saturday-night/?url=https://ucarecdn.com/b1435e07-36d0-491b-8c9e-0c933aaf32aa/)
+
+@mozillavr
+
+------
