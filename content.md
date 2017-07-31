@@ -316,3 +316,9 @@ iStaging
 # Mixed Reality
 
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
+
+------
+
+# Tool for motion capture
+
+<img data-src="media/img/capture-tool.gif"></img>
