@@ -286,7 +286,7 @@ iStaging
 
 ------
 
-!-- .slide: data-background="media/img/tango.jpg" -->
+<!-- .slide: data-background="media/img/tango.jpg" -->
 
 # *Project Tango to WebVR*
 
@@ -312,3 +312,7 @@ iStaging
 @mozillavr
 
 ------
+
+# Mixed Reality
+
+<!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
