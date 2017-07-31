@@ -8,7 +8,7 @@
 
 <!-- .slide: data-background="" -->
 
-# French revolution
+# French revolution, 1789
 
 <img data-src="media/img/greek.jpg"></img>
 
@@ -38,7 +38,7 @@
 
 ------
 
-# Photography
+# Photography, 1840
 
 <img data-src="media/img/firstWoman.jpg"></img>
 
@@ -50,9 +50,42 @@
 
 ------
 
-# Google Cardboard
+# Google Cardboard, 2014
 
 <img data-src="media/img/google-cardboard.png"></img>
+
+------
+
+# High end headset
+
+<img data-src="media/img/htc-vive.png"></img>
+
+------
+
+# WebVR
+
+<img class="stretch" data-src="media/img/webvr.jpg">
+
+Browser APIs that enable WebGL rendering to headsets and access to VR
+sensors
+
+https://w3c.github.io/webvr/
+
+------
+
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+
+<div class="talk-title">
+  <h1>A-Frame</h1>
+  <p>A web framework for building VR experiences</p>
+  <p class="talk-info">
+    @fernandojsg | @ngokevin | @dmarcos | **aframe.io**
+  </p>
+</div>
+
+<!-- NOTES -->
+- Onboard web developers into the 3D and VR world with easy-to-use tools
+- Prototype WebVR experiences faster
 
 ------
 
@@ -63,7 +96,7 @@
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>177 contributors 6000+ Stargazers</i>
+    <i>6 major releases, 177 contributors, 6000+ Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
@@ -131,14 +164,6 @@ Curated collection of A-Frame components.
 Curated collection of A-Frame components.
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
-
-------
-
-# Inspector
-
-<!-- .slide: data-background="media/img/metaverse.png" -->
-
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
 ------
 
@@ -262,14 +287,6 @@ iStaging
 
 ------
 
-<!-- .slide: data-background="media/img/senseofpromise.gif" -->
-
-# Ownership - *Sense of Promise*
-
-@akupresanin
-
-------
-
 <!-- .slide: data-background="media/img/cadavr.gif" -->
 
 # Education - *CadaVR*
@@ -278,38 +295,29 @@ iStaging
 
 ------
 
-<!-- .slide: data-background="media/img/2017nyc.gif" -->
-
-# *2017 Holiday Snow Globe*
-
-@ronikdesign
+# What's new and what's next?
 
 ------
 
-<!-- .slide: data-background="media/img/tango.jpg" -->
+# Link Traversal
 
-# *Project Tango to WebVR*
-
-@utopiah
+<img data-src="media/img/linkTraversal.gif" width="800"></img>
 
 ------
 
-# What's Coming?
+# Motion Capture
 
-- Link traversal
-- WebVR shipped and enabled on Firefox 54 (2017-06-13)
-
-![](/media/img/linktraversal.gif)
+<img data-src="media/img/motionCapture.gif" width="700"></img>
 
 ------
 
-<!-- .slide: data-background="media/img/saturdaynight.gif" -->
+# Spectator Camera
 
-# Motion Capture - *A Saturday Night*
+------
 
-[Ready to dance?](http://swimminglessonsformodernlife.com/a-saturday-night/?url=https://ucarecdn.com/b1435e07-36d0-491b-8c9e-0c933aaf32aa/)
+# Vive Tracker Support
 
-@mozillavr
+<img data-src="media/img/tracker.jpg" width="700"></img>
 
 ------
 
