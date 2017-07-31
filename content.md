@@ -1,33 +1,73 @@
-<!-- .slide: data-background="media/img/aframe.jpg" -->
+<!-- .slide: data-background="" -->
 
-<div class="talk-title">
-  <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
-  <p class="talk-info">
-    @dmarcos | @andgokevin | Mozilla VR | **aframe.io**
-  </p>
-</div>
+# Fashion in the 1830s
 
-<!-- NOTES -->
-- Launched December 2015
-- Why:
-  - Onboard web developers into the 3D and VR world with easy-to-use tools
-  - Easy for web developers to create VR content, without graphics knowledge
-  - Prototype and experiment WebVR and VR UX faster
-  - Vehicle to kickstart WebVR ecosystem
+<img data-src="media/img/fashion.jpg"></img>
 
 ------
+
+<!-- .slide: data-background="" -->
+
+# French revolution
+
+<img data-src="media/img/greek.jpg"></img>
+
+------
+
+# 1830s Fluffiness
+
+<img data-src="media/img/fluffy.jpg"></img>
+
+------
+
+# 1830s Fluffiness
+
+<img data-src="media/img/fluffy2.png"></img>
+
+------
+
+# 1830s Fluffiness
+
+<img data-src="media/img/fluffy.png"></img>
+
+------
+
+# Stereoscope
+
+<img data-src="media/img/stereoscope.jpg"></img>
+
+------
+
+# Photography
+
+<img data-src="media/img/firstWoman.jpg"></img>
+
+------
+
+# Portable stereoscope
+
+<img data-src="media/img/portableStereoscope.jpg"></img>
+
+------
+
+# Google Cardboard
+
+<img data-src="media/img/google-cardboard.png"></img>
+
+------
+
+<!-- .slide: data-background="media/img/aframe.jpg" -->
 
 # A-Frame
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>125 contributors 4800+ Stargazers</i>
+    <i>177 contributors 6000+ Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
-    <i>3000 members on Slack</i>
+    <i>4000+ members on Slack</i>
   </div>
   <div>
     <img data-src="media/img/scene-collage-circle.png">

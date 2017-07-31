@@ -460,3 +460,9 @@ div.slide__boilerplate + video {
   margin: 0 !important;
   zoom: 1 !important;
 }
+
+.fake-talk-title {
+  background-color: #fcffe2;
+  font-color: black;
+}
+
